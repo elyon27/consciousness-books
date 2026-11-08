@@ -3,3 +3,10 @@
 
 /* Consciousness Books identity */
 header .brand{padding-left:88px;min-height:72px;display:flex;flex-direction:column;justify-content:center}header .brand-logo{position:absolute;left:0;top:0;width:72px;height:72px;object-fit:contain}header .brand-sub{max-width:230px}@media(max-width:500px){header .brand{font-size:15px;letter-spacing:.12em;padding-left:76px;min-height:64px}header .brand-logo{width:64px;height:64px}}
+
+/* Illustrated book covers with live title and author overlays. */
+.cover.image-cover{background-image:linear-gradient(to bottom,rgba(4,12,19,.35) 0%,rgba(4,12,19,.02) 30%,rgba(4,12,19,.45) 55%,rgba(4,12,19,.96) 100%),var(--cover-image);background-size:cover;background-position:center;color:#fffaf0;isolation:isolate}
+.image-cover .cover-top{color:#fffaf0;text-shadow:0 1px 5px #000;letter-spacing:.12em}
+.image-cover .cover-title{color:#fffaf0;text-shadow:0 2px 8px #000;overflow-wrap:break-word}
+.image-cover .cover-author{color:#f4dfae;text-shadow:0 1px 5px #000}
+.cover.image-cover:after{border-color:#ffffff40}
